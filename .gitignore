@@ -1,7 +1,6 @@
 .DS_Store 
 __MACOSX
-GIFGIF_Dataset/images/*
-GIFGIF_Dataset/openface/*
+GIFGIF_Dataset*
 
 
 ##########################
