@@ -10,5 +10,3 @@ for dir in directories:
     os.makedirs(output_dir)
     process = subprocess.Popen(["build/bin/FeatureExtraction", "-fdir", dir, "-out_dir", output_dir])
     process.wait()
-    
-# build/bin/FeatureExtraction -fdir images/1 -out_dir output
